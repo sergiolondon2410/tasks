@@ -1,0 +1,27 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "Task managers developed with mongodb, express and vuejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiolondon2410/tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiolondon2410/tasks/issues"
+  },
+  "homepage": "https://github.com/sergiolondon2410/tasks#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  }
+}
